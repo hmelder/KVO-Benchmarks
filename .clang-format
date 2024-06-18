@@ -1,0 +1,30 @@
+# Based on NYTimes code style
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+BreakBeforeBraces: Attach
+AllowShortIfStatementsOnASingleLine: false
+ColumnLimit: 0
+SpacesInContainerLiterals: true
+ObjCSpaceAfterProperty: true
+ObjCSpaceBeforeProtocolList: true
+ObjCBlockIndentWidth: 4
+IndentCaseLabels: false
+AllowShortFunctionsOnASingleLine: InlineOnly
+PointerAlignment: Right
+
+---
+Language: ObjC
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+AllowShortIfStatementsOnASingleLine: false
+ObjCSpaceAfterProperty: true
+ObjCSpaceBeforeProtocolList: true
+BreakBeforeBraces: Attach
+AllowShortFunctionsOnASingleLine: InlineOnly
+PointerAlignment: Right
+AlignTrailingComments: true
+SpacesInContainerLiterals: true
